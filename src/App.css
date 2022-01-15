@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
 .App {
-  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+
+  
 }
 
 .App-logo {
@@ -22,7 +33,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  
+  
 }
+
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +51,74 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pages{
+  display: flex;
+  margin-top: 134px;
+  margin-bottom: 45px;
+}
+
+.page{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #006BE5;
+  border: 1px solid #006BE5;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.split{
+  width: 120px;
+  border-top: 1px solid #000;
+  margin: 16px 16px 0 16px;
+}
+
+.main{
+  display: flex;
+}
+
+.text-container{
+width: 800px;
+margin-left: 181px;
+}
+
+.text-container > h1{
+  height: 39px;
+}
+
+.sidebar{
+  font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+margin-left: 140px;
+margin-top: 137px;
+}
+
+.buttons{
+
+}
+
+.next{
+  height: 42px;
+width: 124px;
+border-radius: 4px;
+padding: 10px, 16px, 10px, 16px;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 1.25px;
+text-align: center;
+margin-top: 55px;
+margin-bottom: 112px;
+background: #006BE5;
+color: #fff;
 }
