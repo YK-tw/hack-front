@@ -40,6 +40,7 @@ class App extends Component {
             <p>Notice the distinct sections of the story. Having a clear narrative in mind will help further improve the design of the summary slide.</p>
             <p>Recap slides contain large volumes of information, which can make them complex to navigate. Help your audience digest a dense document by creating easily-discernible sections. Think about grouping related text and graphs. It’s also a good idea to include text headers for each section so that someone scanning for just a few seconds will still understand the main points. </p>
           <div className="buttons">
+            <button className="prev">PREV</button>
             <button className="next">NEXT</button>
           </div>
         </div>
